@@ -1,0 +1,108 @@
+*{
+margin: 0;
+padding: 0px;}
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Shizuru&display=swap');
+
+
+
+/*header */
+
+header{ 
+background-color: rgb(76, 19, 129); color: white; 
+position: sticky; top: 0; right: 0px;
+left: 0px;
+    
+}
+
+header nav a{ color: white;}
+
+.nombre{ 
+font-family: 'Pushster', cursive;
+font-family: 'Shizuru', cursive;
+font-size: 55px;
+margin-left: 25%;}
+
+.carrito{ position: absolute;
+top: 20%;
+right: 2%;}
+
+header nav ul li { display: inline;}
+
+.link-menu{
+background-color: blueviolet;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin: 20px;}
+/* fin header      */
+
+/* carrousel */
+.imagencarrousel { 
+border: 2px solid black;
+max-width: 50%; 
+margin-left: 25%;
+}
+/* fin carrousel */
+
+/* article */
+
+.article-container{ 
+border-top: 4px solid black;
+border-bottom: 4px solid black;}
+
+.article-pack{ 
+max-width: 300px;
+max-height: 300px;
+text-align: center;
+padding: 2%;}
+
+
+/* fin article */
+
+
+
+/* section-one -section */
+.item-image{ 
+max-width: 15%;
+max-height: 15%;
+padding: 50px 15px;
+margin-left: 150px;
+}
+
+h2, h3, h4, h5, h6{
+font-family: 'Pushster', cursive;
+font-family: 'Shizuru', cursive;
+font-size: 20px;
+padding: 30px;
+margin-left: 150px;}
+
+p{
+font-family: 'Pushster', cursive;
+font-family: 'Shizuru', cursive;
+font-size: 15px; 
+margin-left: 150px;}
+
+.categorias-container{ 
+margin-left: 15%;
+text-decoration-line: underline;}
+.categorias-item{ padding: 5px;}
+
+
+
+/* fin section */
+
+/*  newsletter*/
+
+#newsletter-container{ background-color: cornflowerblue;}
+.p-news{ font-weight: bold;}
+#recibi{ font-size: 25px;}
+
+/* fin newsletter */
+
+/* footer */
+footer{background-color: rgb(76, 19, 129); color: white;}
+footer nav a{color: white;}
+
+
+/* fin footer */
