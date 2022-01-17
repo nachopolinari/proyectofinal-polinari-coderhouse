@@ -28,13 +28,18 @@ top: 20%;
 right: 2%;}
 
 header nav ul li { display: inline;}
-
+/* aqui apliqué transformaciones */
 .link-menu{
 background-color: blueviolet;
+
 padding-top: 10px;
 padding-left: 20px;
 padding-right: 20px;
-margin: 20px;}
+margin: 20px;
+transition: 3s linear;
+}
+
+.link-menu:hover{background-color:rgb(192, 20, 20);}
 /* fin header      */
 
 /* carrousel */
