@@ -29,7 +29,7 @@ right: 2%;}
 
 header nav ul li { display: inline;}
 /* aqui apliqué transformaciones */
-.link-menu{
+.link-menu{ 
 background-color: blueviolet;
 
 padding-top: 10px;
