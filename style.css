@@ -12,10 +12,22 @@ header{
 background-color: rgb(76, 19, 129); color: white; 
 position: sticky; top: 0; right: 0px;
 left: 0px;
-    
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4%;
+}
 }
 
 header nav a{ color: white;}
+
+.logo{ display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;}
 
 .nombre{ 
 font-family: 'Pushster', cursive;
